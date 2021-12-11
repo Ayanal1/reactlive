@@ -1,5 +1,30 @@
 .App {
   text-align: center;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: #61dafb;
+  margin: 0px;
+  padding: 0px;
+box-shadow: 2px 3px #d3d3d3;
+}
+@media screen and (max-width: 480px) {
+  .App {
+   flex-direction: column;
+  }
+}
+.covidData{
+  margin: 10px;
+  color: white;
+  background-color: #0095be ;
+  padding: 5px;
+  width: 200px;
+  border: 2px solid rgb(255, 142, 208);
+  border-radius: 20px;
+}
+.Date{
+  color: red;
 }
 
 .App-logo {
@@ -9,7 +34,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.5s linear;
   }
 }
 
